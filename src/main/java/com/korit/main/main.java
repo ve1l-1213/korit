@@ -14,5 +14,6 @@ public class main {
         userController.signUp(userService);
         userController.signUp(userService2);
         userController.setUserService(userService2);
+        System.out.println("Hi");
     }
 }
